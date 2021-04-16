@@ -1,0 +1,31 @@
+@import "./variable";
+@import "//at.alicdn.com/t/font_2437968_nz92kvwpwzb.css";
+
+*,*::before,*::after{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+html,body,#app{
+   height:100%; 
+}
+body{
+    user-select:none;
+    background-color:$bgColor;
+    color:$textColor;
+    width:100vw;
+    font-size:14px;
+}
+
+a{
+    color:$textColor;
+    text-decoration: none;
+}
+
+.commonContent{
+    height:calc(100vh - 95px);
+    position: relative;
+    top:45px;
+    overflow-y: auto;
+}
